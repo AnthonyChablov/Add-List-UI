@@ -1,1 +1,23 @@
+#main{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#outer-container{
+    width: 50%;
+    padding: 70px;
+    background-color: #e6ebed;
+}
+#title{
+    padding-bottom: 10px;
+
+
+}
+
+#button:hover{
+    background-color: #636466;
+}
+
+
 

@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-List UI</title>
+    <link rel="stylesheet" href="/Add-List-UI/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main id="main">
+        <div id="outer-container">
+            <div class="container">
+                <h2 id="title">Add Item To List</h2>
+                <form id="main-form" class="form">
+                    <div class="text-box-one">
+                        <label for="Item-Name">Item Name</label>
+                        <input id="Item-Name" type="text" class="u-full-width">
+                    </div>
+                    <div class="text-box-one">
+                        <label for="Item-Name">Brand Name</label>
+                        <input id="Item-Name" type="text" class="u-full-width">
+                    </div>
+                    <div class="text-box-one">
+                        <label for="Item-Name">Price</label>
+                        <input id="Item-Name" type="text" class="u-full-width">
+                    </div>
+                    <button id="button" class="u-full-width">
+                        <a href="#">Submit</a>
+                    </button>
+                </form>
+                <div>
+                    <table class="u-full-width">
+                        <thead>
+                            <tr>
+                                <th>Item Name</th>
+                                <th>Brand Name</th>
+                                <th>Price</th>
+                                <th></th>
+                            </tr>
 
+                        </thead>
+                    </table>
+                    <tbody id="list">
+
+                    </tbody>
+                </div>
+            </div>
+        </div> <!--End outer-container-->
+    </main>
+    <script src="/Add-List-UI/app.js"></script>
+</body>
+</html>
