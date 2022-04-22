@@ -30,7 +30,7 @@ buttonSubmit.addEventListener(('click'), ((e) =>
     let brandName = document.querySelector('Brand-Name');
     let price = document.querySelector('Price');
 
-        
+    
     console.log(`button clicked`);
     e.preventDefault()
 
